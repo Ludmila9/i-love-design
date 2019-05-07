@@ -109,9 +109,14 @@ h1{
 /*MAIN*/
 
 .main{
-	margin: 0;
-	background-image: url(img/bg.jpg);
-	background-size: cover;
+	position: absolute;
+	height: 1042px;
+	top: 850px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url(../img/bg.jpg);
+	background-position: 100%;
 	text-align: center;
 }
 
@@ -137,7 +142,7 @@ h1{
 .about_service{
 	display: flex;
 	text-align: left;
-	margin-bottom: 120px;
+	margin: 50px auto 120px;
 }
 
 .service{
