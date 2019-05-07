@@ -116,7 +116,8 @@ h1{
 	right: 0;
 	bottom: 0;
 	background-image: url(../img/bg.jpg);
-	background-position: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 	text-align: center;
 }
 
